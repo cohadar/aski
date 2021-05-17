@@ -20,3 +20,7 @@ def test3():
 def test4():
     assert двоцифрени(list(range(33, 100))) == '!#$%&()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_abc'
 
+
+def test5():
+    assert двоцифрени(list(range(0, 27))) == 'defghijklmnopqrstuvwxyz{|}~'
+
